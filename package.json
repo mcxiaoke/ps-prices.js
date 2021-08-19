@@ -1,0 +1,34 @@
+{
+  "name": "ps-prices",
+  "version": "1.0.0",
+  "description": "Playstation Store discount list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcxiaoke/ps-prices.js.git"
+  },
+  "keywords": [
+    "playstation",
+    "ps4",
+    "ps5"
+  ],
+  "author": "Big Cat <github@mcxiaoke.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mcxiaoke/ps-prices.js/issues"
+  },
+  "homepage": "https://github.com/mcxiaoke/ps-prices.js#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "fastest-levenshtein": "^1.0.12",
+    "fs-extra": "^10.0.0",
+    "https-proxy-agent": "^5.0.0",
+    "jsdom": "^17.0.0",
+    "leven": "^4.0.0",
+    "node-fetch": "^2.6.1",
+    "string-similarity": "^4.0.4"
+  }
+}
