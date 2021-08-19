@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/mcxiaoke/ps-prices.js#readme",
   "dependencies": {
+    "@nodelib/fs.walk": "^1.2.8",
     "cheerio": "^1.0.0-rc.10",
     "fastest-levenshtein": "^1.0.12",
     "fs-extra": "^10.0.0",
@@ -29,6 +30,8 @@
     "jsdom": "^17.0.0",
     "leven": "^4.0.0",
     "node-fetch": "^2.6.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2",
     "string-similarity": "^4.0.4"
   }
 }
